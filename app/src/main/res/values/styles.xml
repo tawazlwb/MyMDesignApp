@@ -6,15 +6,39 @@
 
     </style>
 
-    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light"> <!-- Theme.AppCompat.Light.DarkActionBar -->
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar"> <!-- Theme.AppCompat.Light.DarkActionBar -->
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-        <item name="colorControlHighlight">#edea0d</item>
-        <item name="colorButtonNormal">#f955f3</item>
-        <item name="colorControlActivated">#0cf427</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="actionModeStyle">@style/MyActionMode</item>
+
+    </style>
+
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item> <!-- text color for title-->
+        <item name="android:textColorSecondary">@android:color/white</item> <!-- color for menu-->
+    </style>
+
+    <style name="MyPopTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/overFlowMenuBg</item> <!-- text color for title-->
+        <item name="android:textColorPrimary">@color/grey_800</item> <!-- color for menu-->
+    </style>
+
+    <style name="MyActionMode" parent="ThemeOverlay.AppCompat.Light">
+        <item name="background">@color/conttextual_background</item>
+        <item name="titleTextStyle">@style/MyTextStyle</item>
+
+        <!-- Change default ico of the action mode
+        <item name="actionModeCloseDrawable">@drawable/ic_launcher_background</item>
+-->
+    </style>
+
+    <style name="MyTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="textColor">@color/contextualText</item>
     </style>
 
 </resources>
