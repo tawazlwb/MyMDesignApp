@@ -19,6 +19,7 @@
         <activity android:name=".ActionBarToolbar" />
         <activity android:name=".StandaloneToolbar" />
         <activity android:name=".ContextualMenu" />
+        <activity android:name=".SnackBarActivity"></activity>
     </application>
 
 </manifest>

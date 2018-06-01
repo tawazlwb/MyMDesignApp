@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="textColorPrimary">#FFFFFF</color>
+
     <color name="overFlowMenuBg">#ede2b2</color>
     <color name="grey_800">#838493</color>
 

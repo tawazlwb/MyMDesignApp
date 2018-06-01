@@ -12,6 +12,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
+        <item name="colorControlHighlight">#edea0d</item>
+        <item name="colorButtonNormal">#f955f3</item>
+        <item name="colorControlActivated">#0cf427</item>
+
         <item name="windowActionModeOverlay">true</item>
 
         <item name="actionModeStyle">@style/MyActionMode</item>
@@ -31,6 +35,7 @@
     <style name="MyActionMode" parent="ThemeOverlay.AppCompat.Light">
         <item name="background">@color/conttextual_background</item>
         <item name="titleTextStyle">@style/MyTextStyle</item>
+        <item name="height">56dp</item>
 
         <!-- Change default ico of the action mode
         <item name="actionModeCloseDrawable">@drawable/ic_launcher_background</item>
@@ -38,7 +43,7 @@
     </style>
 
     <style name="MyTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="textColor">@color/contextualText</item>
+        <item name="android:textColor">@color/contextualText</item>
     </style>
 
 </resources>

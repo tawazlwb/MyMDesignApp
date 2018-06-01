@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ContextualMenu.class);
         startActivity(intent);
     }
+
+    public void showSnackBar(View view) {
+        Intent intent = new Intent(this, SnackBarActivity.class);
+        startActivity(intent);
+    }
 }
